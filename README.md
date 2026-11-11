@@ -52,6 +52,16 @@ My background bridges technical problem-solving with rigorous compliance and sys
 - **The Solution:** Engineered a zero-dependency, streaming Python library and CLI operating in constant $O(1)$ memory. Normalizes multi-jurisdictional legal suffixes across US, UK, Singapore (ACRA), DACH, France, Spain, Italy, Malaysia, and Philippines corporate structures, generates 4-character phonetic Soundex blocking keys, and injects dynamic Excel lookup formula helpers (`=LEFT(B2, 25)`).
 - **Tech Stack:** Python 3.10–3.13, Hatchling, OpenPyXL, Pytest, Ruff, Mypy, GitHub Actions Matrix.
 
+#### [tabula-guard // Tabular Schema Drift & PII Auditor for Pre-Commit](https://github.com/jgmchavez-22/tabula-guard)
+*Pre-Commit Hook & Security/Data Governance CLI*  
+[![CI](https://github.com/jgmchavez-22/tabula-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/jgmchavez-22/tabula-guard/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Coverage: 90%](https://img.shields.io/badge/coverage-90%25-brightgreen)](https://github.com/jgmchavez-22/tabula-guard)
+
+- **The Problem:** Accidental commits of raw customer datasets or CRM exports with unmasked PII (emails, phone numbers, credit cards, tax IDs) trigger immediate compliance violations (GDPR, CCPA, Philippine Data Privacy Act), while silent schema drift breaks downstream analytics.
+- **The Solution:** Engineered a zero-dependency pre-commit hook and CLI auditor that inspects staged CSV/TSV files, validates credit cards via the Luhn algorithm (zero false positives), validates schema contracts, enforces maximum null rates, and blocks contaminated commits.
+- **Tech Stack:** Python 3.10–3.13, Pre-Commit, Hatchling, Pytest, Ruff, Mypy, GitHub Actions.
+
 #### [Match Link // Company Name Templater](https://github.com/jgmchavez-22/Match-Link)
 *Automated Legal Entity Normalization & Excel Lookup Helper Generator*  
 [![CI](https://github.com/jgmchavez-22/Match-Link/actions/workflows/ci.yml/badge.svg)](https://github.com/jgmchavez-22/Match-Link/actions)
