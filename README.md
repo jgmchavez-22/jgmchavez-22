@@ -55,7 +55,7 @@ My background bridges technical problem-solving with rigorous compliance and sys
 - **Tech Stack:** Python 3, FastAPI, Uvicorn, Pandas, OpenPyXL, HTML5, CSS3, JavaScript (ES6+).
 
 #### [EOC Buff // End of Campaign Report Generator](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
-*Full-Stack Operational Reporting Utility*
+*Full-Stack Operational Reporting Utility — G9 Outsourcing Corp.*
 - **The Problem:** Operations teams spent hours manually extracting and recalculating campaign metrics from live Google Sheets into client Excel spreadsheets.
 - **The Solution:** Engineered a local Python HTTP proxy (`server.py`) with domain-filtering security to bypass browser CORS constraints, paired with an interactive frontend (`EOC_Report_Generator.html`) that parses SheetJS/ExcelJS data into formatted, production-ready workbooks.
 - **Tech Stack:** Python, HTML5, SheetJS, ExcelJS, Google Docs/Sheets API.
