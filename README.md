@@ -41,6 +41,13 @@ My background bridges technical problem-solving with rigorous compliance and sys
 
 ### 🚀 Featured Work
 
+#### [ShelfIQ // Perishable Spoilage Prediction & Restock Engine](https://github.com/jgmchavez-22/ShelfIQ)
+*Machine Learning Decision Support System (Uplift Code Camp Capstone)*
+- **The Problem:** Mid-size grocers and chilled-goods distributors in the Philippines face heavy inventory shrinkage during heat spikes and cold-chain transit breakdowns, with revenue dropping to zero when goods spoil unpredicted.
+- **The Solution:** Developed a collaborative Streamlit decision support application. Engineered the core Spoilage Prediction Engine (pages/rul_model.py) using a Random Forest classifier to calculate batch Remaining Useful Life (RUL), segment inventory into four urgency action tiers, and trigger automated markdown pricing and upcycling rules.
+- **Tech Stack:** Python, Scikit-learn, Random Forest, Streamlit, Pandas, NumPy.
+- **Attribution:** Collaborative capstone with [Ruth](https://github.com/mrebbuan-8), [Euie David](https://github.com/euiedavid), and [ejrevecho](https://github.com/ejrevecho); original upstream at [mrebbuan-8/ShelfIQ](https://github.com/mrebbuan-8/ShelfIQ).
+
 #### [Match Link // Company Name Templater](https://github.com/jgmchavez-22/Match-Link)
 *Automated Legal Entity Normalization & Excel Lookup Helper Generator*
 - **The Problem:** Reconciling customer, vendor, or lead lists across CRM databases and accounting platforms frequently fails exact matching (VLOOKUP/XLOOKUP) due to inconsistent corporate suffixes (PTE LTD, LLC, Corp, Private Limited) and non-alphanumeric noise.
