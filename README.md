@@ -31,8 +31,9 @@ My background bridges technical problem-solving with rigorous compliance and sys
 
 | Category | Technologies & Tools |
 | :--- | :--- |
-| **Languages & Scripting** | Python, SQL, HTML5, CSS3, JavaScript (ES6+), Bash |
+| **Languages & Scripting** | Python (3.9–3.13), SQL, HTML5, CSS3, JavaScript (ES6+), Bash |
 | **Data & BI Tools** | Power BI, Looker Studio, Power Query, SheetJS, ExcelJS, CRM Systems |
+| **Software Engineering & CI/CD** | GitHub Actions Matrix CI, Docker, Pytest, Mypy, Ruff, PEP 621 / Hatchling Packaging |
 | **Automation & AI** | Web Scraping (`BeautifulSoup`, `requests`), LLM Integration, Custom HTTP/CORS Proxies |
 | **IT & Systems** | Windows Administration, macOS Support, Network Cabling, Commercial Wi-Fi, Hardware Diagnostics |
 | **Certifications & Compliance** | Certified in Cybersecurity (ISC2 CC), Certified Paralegal (CePL), Python for Data & AI (Uplift Code Camp) |
@@ -41,18 +42,32 @@ My background bridges technical problem-solving with rigorous compliance and sys
 
 ### 🚀 Featured Work
 
+#### [normcorp // Deterministic Legal Entity Normalizer & Blocking Engine](https://github.com/jgmchavez-22/normcorp)
+*High-Throughput Open-Source CLI & Library*  
+[![CI](https://github.com/jgmchavez-22/normcorp/actions/workflows/ci.yml/badge.svg)](https://github.com/jgmchavez-22/normcorp/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](https://www.python.org/)
+
+- **The Problem:** Probabilistic fuzzy matching (Levenshtein, Splink, Dedupe) across enterprise company lists explodes in $O(N^2)$ quadratic complexity and triggers false-positive entity merges.
+- **The Solution:** Engineered a zero-dependency, streaming Python library and CLI operating in constant $O(1)$ memory. Normalizes multi-jurisdictional legal suffixes across US, UK, Singapore (ACRA), DACH, France, Spain, Italy, Malaysia, and Philippines corporate structures, generates 4-character phonetic Soundex blocking keys, and injects dynamic Excel lookup formula helpers (`=LEFT(B2, 25)`).
+- **Tech Stack:** Python 3.10–3.13, Hatchling, OpenPyXL, Pytest, Ruff, Mypy, GitHub Actions Matrix.
+
+#### [Match Link // Company Name Templater](https://github.com/jgmchavez-22/Match-Link)
+*Automated Legal Entity Normalization & Excel Lookup Helper Generator*  
+[![CI](https://github.com/jgmchavez-22/Match-Link/actions/workflows/ci.yml/badge.svg)](https://github.com/jgmchavez-22/Match-Link/actions)
+[![Coverage: 94%](https://img.shields.io/badge/coverage-94%25-brightgreen)](https://github.com/jgmchavez-22/Match-Link)
+[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)](https://github.com/jgmchavez-22/Match-Link)
+
+- **The Problem:** Reconciling customer, vendor, or lead lists across CRM databases and accounting platforms frequently fails exact matching (VLOOKUP/XLOOKUP) due to inconsistent corporate suffixes (PTE LTD, LLC, Corp, Private Limited) and non-alphanumeric noise.
+- **The Solution:** Built a production-hardened FastAPI and Pandas web application featuring bounded in-memory LRU/TTL caching (eliminating memory exhaustion), parameterized Pytest test suite (94% coverage), Docker containerization, and native Excel formula helpers.
+- **Tech Stack:** Python 3.10–3.13, FastAPI, Uvicorn, Pandas, OpenPyXL, Docker, Pytest, GitHub Actions.
+
 #### [ShelfIQ // Perishable Spoilage Prediction & Restock Engine](https://github.com/jgmchavez-22/ShelfIQ)
 *Machine Learning Decision Support System (Uplift Code Camp Capstone)*
 - **The Problem:** Mid-size grocers and chilled-goods distributors in the Philippines face heavy inventory shrinkage during heat spikes and cold-chain transit breakdowns, with revenue dropping to zero when goods spoil unpredicted.
 - **The Solution:** Developed a collaborative Streamlit decision support application. Engineered the core Spoilage Prediction Engine (pages/rul_model.py) using a Random Forest classifier to calculate batch Remaining Useful Life (RUL), segment inventory into four urgency action tiers, and trigger automated markdown pricing and upcycling rules.
 - **Tech Stack:** Python, Scikit-learn, Random Forest, Streamlit, Pandas, NumPy.
 - **Attribution:** Collaborative capstone with [Ruth](https://github.com/mrebbuan-8), [Euie David](https://github.com/euiedavid), and [ejrevecho](https://github.com/ejrevecho); original upstream at [mrebbuan-8/ShelfIQ](https://github.com/mrebbuan-8/ShelfIQ).
-
-#### [Match Link // Company Name Templater](https://github.com/jgmchavez-22/Match-Link)
-*Automated Legal Entity Normalization & Excel Lookup Helper Generator*
-- **The Problem:** Reconciling customer, vendor, or lead lists across CRM databases and accounting platforms frequently fails exact matching (VLOOKUP/XLOOKUP) due to inconsistent corporate suffixes (PTE LTD, LLC, Corp, Private Limited) and non-alphanumeric noise.
-- **The Solution:** Built a FastAPI and Pandas web application that tokenizes and strips legal entity suffixes to produce sanitized match keys, while dynamically calculating and injecting native Excel formula helpers (`by Left 25 Characters`, `by Left 15 Characters`, `by Left 10 Characters`) for tiered fuzzy matching in production workbooks.
-- **Tech Stack:** Python 3, FastAPI, Uvicorn, Pandas, OpenPyXL, HTML5, CSS3, JavaScript (ES6+).
 
 #### [EOC Buff // End of Campaign Report Generator](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
 *Full-Stack Operational Reporting Utility — G9 Outsourcing Corp.*
