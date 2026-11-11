@@ -41,6 +41,12 @@ My background bridges technical problem-solving with rigorous compliance and sys
 
 ### 🚀 Featured Work
 
+#### [MatchLink // Company Name Templater](https://github.com/jgmchavez-22/company-name-templater)
+*Automated Legal Entity Normalization & Excel Lookup Helper Generator*
+- **The Problem:** Reconciling customer, vendor, or lead lists across CRM databases and accounting platforms frequently fails exact matching (VLOOKUP/XLOOKUP) due to inconsistent corporate suffixes (PTE LTD, LLC, Corp, Private Limited) and non-alphanumeric noise.
+- **The Solution:** Built a FastAPI and Pandas web application that tokenizes and strips legal entity suffixes to produce sanitized match keys, while dynamically calculating and injecting native Excel formula helpers (y Left 25 Characters, y Left 15 Characters, y Left 10 Characters) for tiered fuzzy matching in production workbooks.
+- **Tech Stack:** Python 3, FastAPI, Uvicorn, Pandas, OpenPyXL, HTML5, CSS3, JavaScript (ES6+).
+
 #### [EOC Buff // End of Campaign Report Generator](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
 *Full-Stack Operational Reporting Utility*
 - **The Problem:** Operations teams spent hours manually extracting and recalculating campaign metrics from live Google Sheets into client Excel spreadsheets.
