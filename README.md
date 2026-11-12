@@ -73,14 +73,21 @@ My background bridges technical problem-solving with rigorous compliance and sys
 - **Tech Stack:** Python 3.10–3.13, FastAPI, Uvicorn, Pandas, OpenPyXL, Docker, Pytest, GitHub Actions.
 
 #### [ShelfIQ // Perishable Spoilage Prediction & Restock Engine](https://github.com/jgmchavez-22/ShelfIQ)
-*Machine Learning Decision Support System (Uplift Code Camp Capstone)*
+*Machine Learning Decision Support System (Uplift Code Camp Capstone)*  
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://github.com/jgmchavez-22/ShelfIQ)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-Random%20Forest-F7931E?style=flat&logo=scikit-learn&logoColor=white)](https://github.com/jgmchavez-22/ShelfIQ)
+[![Python: 3.9+](https://img.shields.io/badge/Python-3.9+-blue)](https://www.python.org/)
+
 - **The Problem:** Mid-size grocers and chilled-goods distributors in the Philippines face heavy inventory shrinkage during heat spikes and cold-chain transit breakdowns, with revenue dropping to zero when goods spoil unpredicted.
 - **The Solution:** Developed a collaborative Streamlit decision support application. Engineered the core Spoilage Prediction Engine (pages/rul_model.py) using a Random Forest classifier to calculate batch Remaining Useful Life (RUL), segment inventory into four urgency action tiers, and trigger automated markdown pricing and upcycling rules.
 - **Tech Stack:** Python, Scikit-learn, Random Forest, Streamlit, Pandas, NumPy.
 - **Attribution:** Collaborative capstone with [Ruth](https://github.com/mrebbuan-8), [Euie David](https://github.com/euiedavid), and [ejrevecho](https://github.com/ejrevecho); original upstream at [mrebbuan-8/ShelfIQ](https://github.com/mrebbuan-8/ShelfIQ).
 
 #### [EOC Buff // End of Campaign Report Generator](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
-*Full-Stack Operational Reporting Utility — G9 Outsourcing Corp.*
+*Full-Stack Operational Reporting Utility — G9 Outsourcing Corp.*  
+[![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
+[![Engine: SheetJS & ExcelJS](https://img.shields.io/badge/Engine-SheetJS%20%7C%20ExcelJS-green)](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
+[![Proxy: Native HTTP](https://img.shields.io/badge/Proxy-Native%20Python%20HTTP-orange)](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
 - **The Problem:** Operations teams spent hours manually extracting and recalculating campaign metrics from live Google Sheets into client Excel spreadsheets.
 - **The Solution:** Engineered a local Python HTTP proxy (`server.py`) with domain-filtering security to bypass browser CORS constraints, paired with an interactive frontend (`EOC_Report_Generator.html`) that parses SheetJS/ExcelJS data into formatted, production-ready workbooks.
 - **Tech Stack:** Python, HTML5, SheetJS, ExcelJS, Google Docs/Sheets API.
