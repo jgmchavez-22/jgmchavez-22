@@ -83,6 +83,35 @@ My background bridges technical problem-solving with rigorous compliance and sys
 - **Tech Stack:** Python, Scikit-learn, Random Forest, Streamlit, Pandas, NumPy.
 - **Attribution:** Collaborative capstone with [Ruth](https://github.com/mrebbuan-8), [Euie David](https://github.com/euiedavid), and [ejrevecho](https://github.com/ejrevecho); original upstream at [mrebbuan-8/ShelfIQ](https://github.com/mrebbuan-8/ShelfIQ).
 
+#### [Contact Consolidator // Multi-Vector Deduplication & Merging Engine](https://github.com/jgmchavez-22/contact-consolidator)
+*High-Throughput Graph Deduplication Engine*  
+[![Tests: 32 passed](https://img.shields.io/badge/Tests-32%20passed-brightgreen?style=flat)](https://github.com/jgmchavez-22/contact-consolidator)
+[![Algorithm: DSU](https://img.shields.io/badge/Algorithm-Disjoint%20Set%20Union%20(DSU)-orange?style=flat)](https://github.com/jgmchavez-22/contact-consolidator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+- **The Problem:** Enterprise CRM migrations and marketing list merges involve messy, heterogeneous spreadsheets where records share conflicting identifiers (partial phone numbers, alternate emails, LinkedIn profiles) and pairwise comparisons explode into $O(N^2)$ quadratic slowdowns.
+- **The Solution:** Engineered a Python data engine using optimized Disjoint Set Union (DSU) graph algorithms to link duplicate contacts across 6 vectors simultaneously, resolving data conflicts via a customizable 136-tier priority matrix with $O(\alpha(N))$ near-constant query efficiency.
+- **Tech Stack:** Python 3.9–3.13, Pandas, OpenPyXL, DSU Graph Algorithms, Pytest (32 tests).
+
+#### [Contact Lot Cleaner // Telephony & CRM Lead Normalizer](https://github.com/jgmchavez-22/contact-lot-cleaner)
+*Dual-Interface Lead Normalization & Dialer Formatting Tool*  
+[![Python: 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/jgmchavez-22/contact-lot-cleaner)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://github.com/jgmchavez-22/contact-lot-cleaner)
+[![SheetJS](https://img.shields.io/badge/SheetJS-0.18.5-green?style=flat)](https://github.com/jgmchavez-22/contact-lot-cleaner)
+
+- **The Problem:** Outbound sales campaigns waste operational agent hours when dialing malformed contact numbers, un-split names, or disqualified lead titles (interns, students).
+- **The Solution:** Built a dual-interface utility (Python CLI + client-side SheetJS web tool) executing an 8-stage pipeline: E.164 phone sanitization, country-to-region mapping, name decomposition, and automated Do-Not-Call (DNC) job title screening.
+- **Tech Stack:** Python, Pandas, OpenPyXL, Google libphonenumber, SheetJS, HTML5.
+
+#### [CRM Contact Verification // AI Agent Skill & Email Permutations](https://github.com/jgmchavez-22/crm-contact-verification)
+*Agentic Lead Validation Framework & Pattern Generator*  
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/jgmchavez-22/crm-contact-verification)
+[![AI Agent Skill](https://img.shields.io/badge/Skill-Antigravity%20%7C%20Agentic-purple?style=flat)](https://github.com/jgmchavez-22/crm-contact-verification)
+
+- **The Problem:** B2B lead generation incurs deliverability penalties and high bounce rates due to outdated personnel records, non-standard corporate email formulas, and defunct LinkedIn accounts.
+- **The Solution:** Engineered a deterministic corporate email permutation generator handling compound surnames and Unicode folding, paired with an automated AI agent skill specification and SMTP verification protocol.
+- **Tech Stack:** Python, Standard Library (`unicodedata`, `re`), Antigravity Agent Skill Framework.
+
 #### [EOC Buff // End of Campaign Report Generator](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
 *Full-Stack Operational Reporting Utility — G9 Outsourcing Corp.*  
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
