@@ -112,6 +112,17 @@ My background bridges technical problem-solving with rigorous compliance and sys
 - **The Solution:** Engineered a deterministic corporate email permutation generator handling compound surnames and Unicode folding, paired with an automated AI agent skill specification and SMTP verification protocol.
 - **Tech Stack:** Python, Standard Library (`unicodedata`, `re`), Antigravity Agent Skill Framework.
 
+#### [Video Splitter // In-Browser Video Chunking & Transcoding Utility](https://github.com/jgmchavez-22/video-splitter)
+*Full-Stack Python & FFmpeg Media Tool*  
+[![Python: 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/jgmchavez-22/video-splitter)
+[![Flask](https://img.shields.io/badge/Flask-3.1+-000000?style=flat&logo=flask&logoColor=white)](https://github.com/jgmchavez-22/video-splitter)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-imageio--ffmpeg-007808?style=flat&logo=ffmpeg&logoColor=white)](https://github.com/jgmchavez-22/video-splitter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+- **The Problem:** Sharing screen recordings and operational video walkthroughs across enterprise messaging apps (WhatsApp, Slack, email) frequently fails due to file upload size limits (25MB–100MB), while traditional desktop editors require heavy manual trimming.
+- **The Solution:** Built a lightweight, cross-platform Flask web utility that probes video streams using FFmpeg, automatically splits long recordings by target file size or time intervals with lossless stream copying (`-c copy`), packages split parts into ZIP bundles, and purges transient files after 30 minutes.
+- **Tech Stack:** Python 3.9–3.13, Flask, imageio-ffmpeg, HTML5, CSS3, JavaScript (Fetch API, Drag-and-Drop).
+
 #### [EOC Buff // End of Campaign Report Generator](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
 *Full-Stack Operational Reporting Utility — G9 Outsourcing Corp.*  
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://github.com/jgmchavez-22/EOC-Break-FRVNT)
