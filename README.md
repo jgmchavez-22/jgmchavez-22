@@ -95,13 +95,14 @@ My background bridges technical problem-solving with rigorous compliance and sys
 
 #### [Contact Lot Cleaner // Telephony & CRM Lead Normalizer](https://github.com/jgmchavez-22/contact-lot-cleaner)
 *Dual-Interface Lead Normalization & Dialer Formatting Tool*  
-[![Python: 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/jgmchavez-22/contact-lot-cleaner)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://github.com/jgmchavez-22/contact-lot-cleaner)
+[![CI](https://github.com/jgmchavez-22/contact-lot-cleaner/actions/workflows/ci.yml/badge.svg)](https://github.com/jgmchavez-22/contact-lot-cleaner/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](https://www.python.org/)
 [![SheetJS](https://img.shields.io/badge/SheetJS-0.18.5-green?style=flat)](https://github.com/jgmchavez-22/contact-lot-cleaner)
 
-- **The Problem:** Outbound sales campaigns waste operational agent hours when dialing malformed contact numbers, un-split names, or disqualified lead titles (interns, students).
-- **The Solution:** Built a dual-interface utility (Python CLI + client-side SheetJS web tool) executing an 8-stage pipeline: E.164 phone sanitization, country-to-region mapping, name decomposition, and automated Do-Not-Call (DNC) job title screening.
-- **Tech Stack:** Python, Pandas, OpenPyXL, Google libphonenumber, SheetJS, HTML5.
+- **The Problem:** Outbound sales campaigns waste operational agent hours when dialing malformed contact numbers, un-split names, or disqualified lead titles (interns, students), while aggressive automated deduplication can accidentally drop valid phone lines without an audit trail.
+- **The Solution:** Built a dual-interface utility (Python CLI + client-side SheetJS web tool) executing an 8-stage pipeline: E.164 phone sanitization, country-to-region mapping, name decomposition, and automated Do-Not-Call (DNC) job title screening. Includes a client-side Deleted Phone Numbers Remediation Dashboard with search, reason filtering, and granular/bulk one-click restoration.
+- **Tech Stack:** Python 3.10–3.13, Pandas, OpenPyXL, Google libphonenumber, SheetJS, HTML5, GitHub Actions CI.
 
 #### [CRM Contact Verification // AI Agent Skill & Email Permutations](https://github.com/jgmchavez-22/crm-contact-verification)
 *Agentic Lead Validation Framework & Pattern Generator*  
